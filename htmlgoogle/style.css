@@ -1,0 +1,175 @@
+/* MAIN STRUCTURE */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin: 10px 35px 90px;
+	font-family: arial;
+	font-size: 12px;
+	min-width: 975px;
+}
+
+header {
+	line-height: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    min-width: 975px;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+	line-height: 40px;
+}
+
+
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+	color: grey;	
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+/* IMAGES */
+
+#grid-icon {
+	vertical-align: middle;
+	height: 23px;
+	width: 23px;
+}
+
+#logo-container {
+	position: relative;
+	height: 250px;
+	margin-bottom: 25px;
+}
+
+#logo-image {
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: 0px;
+}
+
+.login-button {
+  	padding: 7px 10px;
+  	vertical-align: middle;
+  	font: bold 13px Arial;
+  	color: white;
+  	border-radius: 3px;
+  	background-color: #4486f8;
+}
+
+.login-button:hover {
+	text-decoration: none;
+	color: white;
+	box-shadow: 0 1px 0;
+}
+
+
+/* LISTS */
+
+li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+header ul {
+	text-align: right;
+}
+
+header li {
+	margin-top: 0;
+}
+
+footer > ul {
+	margin-left: 25px;
+	float: left;
+}
+
+footer ul:last-child {
+	float: right;
+	margin-right: 35px;
+}
+
+footer li {
+	display: inline-block;
+}
+
+
+/* FORM */
+
+form {
+	width: 570px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input:first-child {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 570px;
+	height: 28px;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 1px solid #b2b2b2;
+	background-size: 14px 19px;
+	background-position: 98%;
+}
+
+.button {
+	height: 28px;
+	font: bold 11px Arial;
+	display: block;
+	margin: 0px;
+	border: 1px solid #d8d8d8;
+	background-color: #f3f3f3;
+	border-radius: 3px;
+	color: #444444;
+}
+
+.button:nth-child(2) {
+	margin-left: 175px;
+	float: left;
+}
+
+.button:nth-child(3) {
+	margin-right: 175px;
+	float: right;
+}
+
+input:hover {
+	border: 1px solid #808080;
+	box-shadow: 0 1px 0 0 lightgrey;
+}
+
+div > input:hover {
+	box-shadow: none;
+}
+
+
+input:focus {
+	border: 1px solid #1369e9;
+	outline: none;
+}
+
+a {
+	color: grey;
+}
+
